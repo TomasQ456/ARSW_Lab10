@@ -1,0 +1,13 @@
+10 ejecuciones concurrentes de Newman, Fibonacci n=1000000, Azure (2026-11-06 02:51 UTC)
+peticiones: 10, exitosas: 10, fallidas: 0
+tiempo ms -> min: 61238, media: 70209, max: 72571
+run-10.json 200 71865 ms
+run-1.json 200 69500 ms
+run-2.json 200 72435 ms
+run-3.json 200 66258 ms
+run-4.json 200 61238 ms
+run-5.json 200 72529 ms
+run-6.json 200 72174 ms
+run-7.json 200 71088 ms
+run-8.json 200 72429 ms
+run-9.json 200 72571 ms

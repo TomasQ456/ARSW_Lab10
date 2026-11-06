@@ -1,0 +1,24 @@
+### Peticiones por funcion, instancia y codigo
+  Fibonacci | 214afe76 | 200 | 13 | 02:51:05 | 02:51:35 | 54131
+  FibonacciMemo | 214afe76 | 200 | 17 | 02:51:06 | 02:59:15 | 5
+  FibonacciMemo | 214afe76 | 500 | 4 | 02:53:12 | 02:53:13 | 13
+  FibonacciMemo | f6da38ce | 200 | 7 | 03:25:15 | 03:27:17 | 136
+  Fibonacci | f6da38ce | 200 | 1 | 03:27:17 | 03:27:17 | 9
+
+### Arranques del host
+  02:51:04 | 214afe76
+  03:25:16 | f6da38ce
+
+### Excepciones
+  Microsoft.Azure.WebJobs.Script.Workers.Rpc.RpcExce | Maximum call stack size exceeded | 8
+
+### CPU durante la prueba (02:50-02:54)
+  02:52:05 | % Processor Time | 100
+  02:52:05 | % Processor Time Normalized | 50
+  02:53:05 | % Processor Time | 51.5
+  02:53:05 | % Processor Time Normalized | 25.8
+
+### Configuracion del runtime
+  FUNCTIONS_WORKER_RUNTIME = node
+  WEBSITE_NODE_DEFAULT_VERSION = ~24
+  FUNCTIONS_EXTENSION_VERSION = ~4
